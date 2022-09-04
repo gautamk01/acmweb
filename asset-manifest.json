@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/acmweb/static/css/main.e760ebad.css",
+    "main.js": "/acmweb/static/js/main.608f8327.js",
+    "index.html": "/acmweb/index.html",
+    "main.e760ebad.css.map": "/acmweb/static/css/main.e760ebad.css.map",
+    "main.608f8327.js.map": "/acmweb/static/js/main.608f8327.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e760ebad.css",
+    "static/js/main.608f8327.js"
+  ]
+}

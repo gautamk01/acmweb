@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { SiOpencollective } from "react-icons/si";
+import "./nav.css";
 const Navbar = () => {
-  const [closer, setCloser] = useState(true);
+  const [closer, setCloser] = useState(false);
 
   const navbar_click = () => {
     setCloser(!closer);
@@ -13,7 +14,7 @@ const Navbar = () => {
         React.
       </h1>
       <ul className="hidden md:flex">
-        <li className="p-4">Home</li>
+        <li className="p-4 ">Home</li>
         <li className="p-4">Company</li>
         <li className="p-4">resources</li>
         <li className="p-4">About</li>
@@ -43,11 +44,21 @@ const Navbar = () => {
           React.
         </h1>
         <ul className=" pt-14 uppercase m-5">
-          <li className="p-4 border-b border-b-gray-600">Home</li>
-          <li className="p-4 border-b border-b-gray-600">Company</li>
-          <li className="p-4 border-b border-b-gray-600">resources</li>
-          <li className="p-4 border-b border-b-gray-600">About</li>
-          <li className="p-4 border-b border-b-gray-600">Contact</li>
+          <li className="p-4 border-b border-b-gray-60 hover:rounded-b-lg hover:bg-slate-400 ease-in duration-100 hover:text-[#000] hover:font-bold">
+            Home
+          </li>
+          <li className="p-4 border-b border-b-gray-60 hover:rounded-b-lg hover:bg-slate-400 ease-in duration-100 hover:text-[#000] hover:font-bold">
+            Company
+          </li>
+          <li className="p-4 border-b border-b-gray-60 hover:rounded-b-lg hover:bg-slate-400 ease-in duration-100 hover:text-[#000] hover:font-bold">
+            resources
+          </li>
+          <li className="p-4 border-b border-b-gray-60 hover:rounded-b-lg hover:bg-slate-400 ease-in duration-100 hover:text-[#000] hover:font-bold">
+            About
+          </li>
+          <li className="p-4 border-b border-b-gray-60 hover:rounded-b-lg hover:bg-slate-400 ease-in duration-100 hover:text-[#000] hover:font-bold">
+            Contact
+          </li>
         </ul>
       </div>
     </div>

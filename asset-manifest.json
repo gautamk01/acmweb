@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/acmweb/static/css/main.e760ebad.css",
-    "main.js": "/acmweb/static/js/main.608f8327.js",
+    "main.css": "/acmweb/static/css/main.099e9360.css",
+    "main.js": "/acmweb/static/js/main.dbcad586.js",
     "index.html": "/acmweb/index.html",
-    "main.e760ebad.css.map": "/acmweb/static/css/main.e760ebad.css.map",
-    "main.608f8327.js.map": "/acmweb/static/js/main.608f8327.js.map"
+    "main.099e9360.css.map": "/acmweb/static/css/main.099e9360.css.map",
+    "main.dbcad586.js.map": "/acmweb/static/js/main.dbcad586.js.map"
   },
   "entrypoints": [
-    "static/css/main.e760ebad.css",
-    "static/js/main.608f8327.js"
+    "static/css/main.099e9360.css",
+    "static/js/main.dbcad586.js"
   ]
 }
